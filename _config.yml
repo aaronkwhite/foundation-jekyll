@@ -1,0 +1,35 @@
+title:              Foundation-Jekyll 
+
+author:
+  name:             ######
+  email:            user@domain.com
+  github:           ######
+  twitter:          ######
+
+# Dependencies
+markdown:           rdiscount
+highlighter:        pygments
+
+# Permalinks
+permalink:          pretty
+
+# Server
+source:             ./source
+destination:        ./static
+
+port:               9002
+baseurl:            ""
+#url:               /
+
+# exclude this stuff when building the static site
+exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
+
+
+## CUSTOM VARS
+
+#ga_id:             ##-########-###
+site_name:          Foundation-Jekyll 
+site_description :  Bare Bones Foundation-Bootstrap starting point
+site_url:           ######
+site_email:         site@domain.com
+site_phone:         (###) ###-####

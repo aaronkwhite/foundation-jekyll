@@ -1,0 +1,34 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ site.title }} - {{ site.name }}</title>
+
+    <meta name="description" content="{{ site.proj_name }}" />    
+    <meta name="author" content="{{ site.author }}" />
+    
+    <link rel="stylesheet" href="{{ page.base_url }}assets/stylesheets/murdock.css" />
+    
+    <script src="{{ page.base_url }}assets/javascripts/modernizr.js"></script>
+    
+    <!--
+      Modern Browser Bookmark "Favicons"
+    -->
+    <link rel="icon" type="image/png" href="{{ page.base_url }}assets/ico/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="{{ page.base_url }}assets/ico/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="{{ page.base_url }}assets/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ page.base_url }}assets/ico/favicon-32x32.png" sizes="32x32">
+
+    <!--
+      Standard Browser Bookmark "Favicon"
+    -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ page.base_url }}assets/ico/favicon.ico">
+
+  </head>
+  <body>
+  
