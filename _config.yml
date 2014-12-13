@@ -30,6 +30,7 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 #ga_id:             ##-########-###
 site_name:          Foundation-Jekyll 
 site_description :  Bare Bones Foundation-Bootstrap starting point
+site_copyright:     Copyright (c) 2014 @aaronkwhite
 site_url:           ######
 site_email:         site@domain.com
 site_phone:         (###) ###-####
