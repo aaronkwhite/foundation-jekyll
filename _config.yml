@@ -1,10 +1,13 @@
 title:              Foundation-Jekyll 
 
+# Versioning
+current_version: 1.0.1
+
 author:
-#  name:             ######
-#  email:            user@domain.com
-#  github:           ######
-#  twitter:          ######
+  name:             username
+  email:            user@domain.com
+  github:           username
+  twitter:          username
 
 # Dependencies
 markdown:           rdiscount
@@ -19,7 +22,7 @@ destination:        ./static
 
 port:               9002
 baseurl:            ""
-#url:               /
+url:                http://yoururl.com
 
 # exclude this stuff when building the static site
 exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
@@ -31,6 +34,6 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 site_name:          Foundation-Jekyll 
 site_description :  Bare Bones Foundation-Bootstrap starting point
 site_copyright:     Copyright (c) 2014 @aaronkwhite
-#site_url:           ######
+site_url:           http://yoururl.com
 site_email:         site@domain.com
-#site_phone:         (###) ###-####
+site_phone:         (555) 555-1234 

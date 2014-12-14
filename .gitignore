@@ -6,4 +6,7 @@ config.codekit
 sass/.sass-cache
 sass/.sass-cache/*
 
+blog/_drafts
+blog/_drafts/*
+
 static/
