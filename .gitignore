@@ -3,4 +3,7 @@
 *.sublime-workspace
 config.codekit
 
+sass/.sass-cache
+sass/.sass-cache/*
+
 static/

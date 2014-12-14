@@ -7,13 +7,13 @@ A Bare Bones [Foundation][1] & [Jekyll][2] site starting point that doesn't assu
 Current - 1.0.0
 
 ## About
-This repo was created as a starting point to use [Foundation][1] & [Jekyll][2] to create static websites. Most [Foundation][1] & [Jekyll][2] scaffolds assume too much, spend less time undoing configurations geared towards building a blog and start building sites faster.
+This repo was created as a starting point to use [Foundation][1] & [Jekyll][2] to create static websites. There aren't many (if any) [Foundation][1] & [Jekyll][2] scaffolds, so I created one. This repo is geared more towards building static sites, not just a blog. Hopefully you'll find it as useful as I do.
 
 ### Get Started
 Clone the repo and start building your site:
 
 ```
- git clone git@github.com:aaronkwhite/bootstrap-jekyll.git project-name
+ git clone git@github.com:aaronkwhite/foundation-jekyll.git project-name
 ```
 
 The core components are located in the *source* directory, so you can better organize your content and stucture.
@@ -44,8 +44,8 @@ If you would like to contribute to this repo, hit me up on twitter [@aaronkwhite
 
 
 
-[1]: http://getbootstrap.com
+[1]: http://foundation.zurb.com
 [2]: http://jekyllrb.com
-[3]: http://lesscss.org
+[3]: http://sass-lang.com
 [4]: http://compass-style.org
 [5]: https://incident57.com/codekit
