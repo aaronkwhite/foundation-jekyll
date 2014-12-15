@@ -8108,3 +8108,6 @@ th.hide-for-touch {
 
 .fa-meanpath:before {
   content: ""; }
+
+body {
+  margin: 5%; }
