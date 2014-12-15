@@ -4,7 +4,7 @@
 A Bare Bones [Foundation][1] & [Jekyll][2] site starting point that doesn't assume anything.
 
 ### Version
-Current - 1.0.0
+Current - 1.0.2 
 
 ## About
 This repo was created as a starting point to use [Foundation][1] & [Jekyll][2] to create static websites. There aren't many (if any) [Foundation][1] & [Jekyll][2] scaffolds, so I created one. This repo is geared more towards building static sites, not just a blog. Hopefully you'll find it as useful as I do.
