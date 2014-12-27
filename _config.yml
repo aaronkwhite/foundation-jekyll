@@ -1,7 +1,7 @@
 title:              Foundation-Jekyll
 
 # Versioning
-current_version: 1.0.2
+current_version: 1.5.0
 
 author:
   name:             Aaron K. White
@@ -23,7 +23,7 @@ destination:        ./_site
 
 port:               9002
 baseurl:            ""
-url:                http://yoururl.com
+url:                http://foundationjekyll.com
 
 # exclude this stuff when building the static site
 exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
@@ -33,10 +33,11 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 
 #ga_id:             ##-########-###
 site_name:          Foundation-Jekyll 
-site_description :  Bare Bones Foundation-Bootstrap starting point
+site_description :  A bare bones Foundation & Jekyll boilerplate to get up and running fast.
 site_copyright:     Copyright (c) 2014 @aaronkwhite
-site_url:           http://yoururl.com
-site_email:         site@domain.com
+site_license:       http://opensource.org/licenses/MIT
+site_url:           http://foundationjekyll.com
+site_email:         info@foundationjekyll.com
 site_phone:         (555) 555-1234 
 
 
