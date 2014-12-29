@@ -6,9 +6,11 @@ current_version: 1.5.0
 author:
   name:             Aaron K. White
   email:            aaron@aaronkwhite.com
+  url:              http://aaronkwhite.com
   github:           aaronkwhite
   twitter:          aaronkwhite
-  url:              http://aaronkwhite.com
+  twitter_url:      http://twitter.com/aaronkwhite
+  
 
 # Dependencies
 markdown:           kramdown
