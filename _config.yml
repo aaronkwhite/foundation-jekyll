@@ -8,6 +8,7 @@ author:
   email:            aaron@aaronkwhite.com
   github:           aaronkwhite
   twitter:          aaronkwhite
+  url:              http://aaronkwhite.com
 
 # Dependencies
 markdown:           kramdown
@@ -31,7 +32,7 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 
 ## CUSTOM VARS
 
-#ga_id:             ##-########-###
+ga_id:              UA-58024365-1
 site_name:          Foundation-Jekyll 
 site_description :  A bare bones Foundation & Jekyll boilerplate to get up and running fast.
 site_copyright:     Copyright (c) 2014 @aaronkwhite
@@ -39,6 +40,10 @@ site_license:       http://opensource.org/licenses/MIT
 site_url:           http://foundationjekyll.com
 site_email:         info@foundationjekyll.com
 site_phone:         (555) 555-1234 
+site_jekyll:        http://jekyllrb.com
+site_foundation:    http://foundation.zurb.com
+site_github_url:    http://github.com/aaronkwhite/foundation-jekyll
+site_github_zip:    http://github.com/aaronkwhite/foundation-jekyll/archive/master.zip
 
 
 

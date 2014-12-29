@@ -5,3 +5,6 @@
 
 // Init Foundation
 $(document).foundation();
+
+// Init Highlight.js
+hljs.initHighlightingOnLoad();
