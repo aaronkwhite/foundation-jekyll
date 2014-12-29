@@ -19,7 +19,7 @@ permalink:          pretty
 #relative_permalinks: true
 
 # Server
-source:             ./source
+source:             ./
 destination:        ./_site
 
 port:               9002
