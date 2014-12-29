@@ -4,9 +4,9 @@ title: Foundation - Jekyll
 base_url: "../../"
 ---
 
- <h1><i class="fa fa-barcode"></i> Foundation-Jekyll</h1>
+<h1><i class="fa fa-barcode"></i> Foundation-Jekyll</h1>
 
-<p>A Bare Bones <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> site starting point that doesn&rsquo;t assume anything.</p>
+<p>A bare bones <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> boilerplate to get up and running fast.</p>
 
 <h3>Version</h3>
 
@@ -14,19 +14,58 @@ base_url: "../../"
 
 <h2>About</h2>
 
-<p>This repo was created as a starting point to use <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> to create static websites. There aren&rsquo;t many (if any) <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> scaffolds, so I created one. This repo is geared more towards building static sites, not just a blog. Hopefully you&rsquo;ll find it as useful as I do.</p>
+<p>This boilerplate was created as a starting point to use <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> to create static websites. There aren't many (if any) <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> boilerplates, so I created one. The structure is geared more towards building static sites and prototypes, not just blogs. Hopefully you'll find it as useful as I do.</p>
 
 <h3>Get Started</h3>
 
 <p>Clone the repo and start building your site:</p>
 
 <p><code>
- git clone git@github.com:aaronkwhite/bootstrap-jekyll.git project-name
+ git clone git@github.com:aaronkwhite/foundation-jekyll.git project-name
 </code></p>
 
 <p>The core components are located in the <em>source</em> directory, so you can better organize your content and stucture.</p>
 
-<p>This repo is using <a href="http://foundation.zurb.com">Foundation</a> <a href="http://sass-lang.com">Sass</a> &amp; Font-Awesome <a href="http://sass-lang.com">Sass</a>, located in the root directory. You&rsquo;ll need to setup <a href="http://compass-style.org">Compass</a> or use <a href="https://incident57.com/codekit">Codekit</a> to compile the <a href="http://sass-lang.com">Sass</a> into the <code>source/assets/stylesheets</code> directory.</p>
+<p>
+<pre><code>foundation-jekyll/
+├── _site/
+├── _source/
+    ├── _data/
+        ├── sample.json
+    ├── _drafts/
+        ├── 2014-12-14-draft-post.md
+    ├── _includes/
+        ├── header.html
+        ├── footer.html
+    ├── _layouts/
+        ├── default.html
+    ├── _posts/
+        ├── 2014-12-14-post-one.md
+        ├── 2014-12-14-post-two.md
+    ├── _scss/
+    ├── assets/
+        ├── fonts/
+        ├── images/
+        ├── javascripts/
+            ├── foundation/
+            ├── foundation.min.js
+            ├── jquery-2.1.1.min.js
+            ├── modernizr-2.8.3-min.js
+            ├── scripts.js
+        ├── stylesheets/
+          ├── style.scss
+    ├── 404.html
+    ├── index.html
+    ├── feed.xml
+├── .gitignore
+├── LICENSE
+├── README.md
+├── _config.yml</code></pre>
+</p>
+
+<p>We're using <a href="http://foundation.zurb.com">Foundation</a> &amp; Font-Awesome <a href="http://sass-lang.com">Sass</a> compiled by Jekyll automatically when we build the source. All Sass files are located in the '_scss/' directory including the customized skin.</p>
+
+<p>The primary stylesheet '/assets/stylessheets/style.scss' file is configured to include all necessary files for Foundation, Font-Awesome and your custom styles.</p>
 
 <p>To test your site locally just run:</p>
 
@@ -39,13 +78,19 @@ jekyll serve
 <h3>Dependencies</h3>
 
 <ul>
+<li>ruby</li>
 <li>Jekyll</li>
-<li>Foundation 5</li>
-<li>Sass Compiler</li>
+<li>kramdown</li>
+<li>pygments</li>
 </ul>
 
+<h2>Hosting on Github</h2>
 
-<h2>Contributing</h2>
+<p>If you plan on hosting your site or blog on Github Pages, you will need to move all the files in the 'source' directory to the root of your project. This is due to the Github Pages build system overriding the source flag in _config.yml.</p>
+
+<h2>Support/Contributing</h2>
+
+<p>If you run into any issues or bugs, please create an issue in Github. Unfortunately I can't help everyone via email or twitter, I'm only one person.</p>
 
 <p>If you would like to contribute to this repo, hit me up on twitter <a href="http://twitter.com/aaronkwhite">@aaronkwhite</a> and then we can talk pull requests.</p>
 

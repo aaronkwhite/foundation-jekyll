@@ -1,0 +1,19 @@
+---
+# front matter
+---
+
+// Reset all the things
+@import 'normalize';
+
+// Custom Variables
+@import 'variables';
+
+// Foundation 5
+@import 'foundation/settings';
+@import 'foundation';
+
+// Font-Awesome
+@import 'font-awesome/font-awesome';
+
+// Custom Styles
+@import 'style';
