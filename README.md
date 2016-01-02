@@ -3,7 +3,7 @@
 A bare bones [Foundation][1] & [Jekyll][2] boilerplate to get up and running fast.
 
 ### Version
-Current - 1.1.0
+Current - 1.2.0
 
 ## About
 This boilerplate was created as a starting point to use [Foundation][1] & [Jekyll][2] to create static websites. There aren't many (if any) [Foundation][1] & [Jekyll][2] boilerplates, so I created one. The structure is geared more towards building static sites and prototypes, not just blogs. Hopefully you'll find it as useful as I do.
