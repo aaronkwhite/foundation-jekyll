@@ -1,7 +1,8 @@
-title:              Foundation-Jekyll 
+title:              Foundation-Jekyll
 
 # Versioning
-current_version: 1.1.0
+current_version: 1.2.0
+foundation_version: 5.5.3
 
 author:
   name:             username
@@ -31,12 +32,12 @@ exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
 ## CUSTOM VARS
 
 #ga_id:             ##-########-###
-site_name:          Foundation-Jekyll 
+site_name:          Foundation-Jekyll
 site_description :  A bare bones Foundation & Jekyll boilerplate to get up and running fast.
 site_copyright:     Copyright (c) 2014 @aaronkwhite
 site_url:           http://yoururl.com
 site_email:         site@domain.com
-site_phone:         (555) 555-1234 
+site_phone:         (555) 555-1234
 
 
 
