@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5 {
     border-color: $grayLight;
   }
   .download {
-    
+
     .link {
       background: $grayLight;
       color: $blue;
@@ -49,15 +49,18 @@ h1, h2, h3, h4, h5 {
       background: $grayLight;
       display: inline-block;
       font-size: rem-calc(14);
-      padding: .5rem 1rem;
-      &:before { 
+      padding: 0 1rem;
+      &:before {
         content: "$";
         color: darken($grayLight, 15%);
         left: -10px;
       }
-      input {
+      input[type="text"] {
         background: transparent;
         border: none;
+        box-shadow: none;
+        display: inline-block;
+        margin: 0;
         outline: none;
         width: 20rem;
       }
