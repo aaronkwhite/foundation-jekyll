@@ -7,4 +7,4 @@
 $(document).foundation();
 
 // Init Highlight.js
-hljs.initHighlightingOnLoad();
+//hljs.initHighlightingOnLoad();

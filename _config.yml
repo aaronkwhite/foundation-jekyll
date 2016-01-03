@@ -2,7 +2,7 @@ title:              Foundation-Jekyll
 
 # Versioning
 current_version: 1.2.0
-foundation-version: 5.5.3
+foundation-version: 6.0.0
 
 author:
   name:             Aaron K. White
@@ -54,5 +54,5 @@ site_github_zip:    http://github.com/aaronkwhite/foundation-jekyll/archive/mast
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _scss
+  sass_dir:          ./assets/stylesheets
   style:            :compressed
