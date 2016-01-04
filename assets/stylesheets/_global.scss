@@ -68,7 +68,8 @@ $body-font-color: $black !default;
 
 /// Font stack of the body.
 /// @type List
-$body-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
+//$body-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
+$body-font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
 
 /// Set to `true` to enable antialiased type, using the `-webkit-font-smoothing` and `-moz-osx-font-smoothing` CSS properties.
 /// @type Boolean
@@ -92,15 +93,18 @@ $global-margin: 1rem !default;
 
 /// Global font weight used for normal type.
 /// @type Keyword | Number
-$global-weight-normal: normal !default;
+//$global-weight-normal: normal !default;
+$global-weight-normal: 300 !default;
 
 /// Global font weight used for bold type.
 /// @type Keyword | Number
-$global-weight-bold: bold !default;
+//$global-weight-bold: bold !default;
+$global-weight-bold: 400 !default;
 
 /// Global value used for all elements that have a border radius.
 /// @type Number
-$global-radius: 0 !default;
+//$global-radius: 0 !default;
+$global-radius: 3px !default;
 
 /// Namespace for the data attributes used to initialize Foundation plugins.
 /// @type String | Boolean

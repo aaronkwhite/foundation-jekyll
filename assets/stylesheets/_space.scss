@@ -1,9 +1,63 @@
+body {
+  font-family: 'Muli', 'Helvetica-Neue', 'Arial', sans-serif;
+  font-weight: 300;
+}
 
 .hero {
   background: url(../images/fj-space.png) center center repeat-x;
   background-size: cover;
-  position: relative;
-  padding: 2.5rem 0 4.5rem;
+  color: $white;
   text-align: center;
+  position: relative;
   overflow: visible;
+  .title {
+    text-align: center;
+  }
+  .tagline {
+    text-align: center;
+  }
+  .hero-button {
+    background: $red;
+    font-weight: bold;
+    box-shadow:0 -2px 0 rgba(0,0,0,0.2) inset;
+      -moz-box-shadow:0 -2px 0 rgba(0,0,0,0.2) inset;
+    border: none;
+    small {
+      font-weight: normal;
+    }
+    &:hover {
+      background: darken($red, 5%);
+    }
+  }
+  // Media Queries
+  // Small Screens
+  @media only screen {
+      padding: 6rem 0 2.5rem 0;
+    .title {
+      font-size: rem-calc(24);
+    }
+    .tagline {
+      font-size: rem-calc(14);
+    }
+  }
+  //Medium Screens
+  @media only screen and (min-width: 40.063em) {
+    padding: 200px 0 190px 0;
+    .title {
+      font-size: rem-calc(40);
+    }
+    .tagline {
+      font-size: rem-calc(18);
+    }
+  }
+  // Large Screens
+  @media only screen and (min-width: 64.063em) {
+    padding: 200px 0 200px 0;
+    .title {
+      font-size: rem-calc(48);
+    }
+    .tagline {
+      font-size: rem-calc(24);
+    }
+  }
 }

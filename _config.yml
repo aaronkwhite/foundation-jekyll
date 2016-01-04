@@ -15,6 +15,8 @@ author:
 
 # Dependencies
 markdown:           kramdown
+kramdown:
+  use_coderay: true
 highlighter:        pygments
 
 # Permalinks
@@ -40,7 +42,7 @@ exclude:            [
 ## CUSTOM VARS
 ga_id:              UA-58024365-1
 site_name:          Foundation-Jekyll
-site_description :  The awesomeness of Foundation 6 powered by Jekyll
+site_description:  The awesomeness of Foundation 6... powered by Jekyll
 site_copyright:     Copyright (c) 2016 @aaronkwhite
 site_license:       http://opensource.org/licenses/MIT
 site_url:           http://foundationjekyll.com
