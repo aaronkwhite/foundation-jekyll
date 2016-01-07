@@ -1,17 +1,19 @@
-<section class="row">
-  <div class="content small-9 small-centered large-centered columns">
+<section class="row getstarted hide-for-small-only">
+  <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
 
     <h3>Get Started</h3>
-      
+
       <p>Clone the repo and start building your site:</p>
 
-      <pre><code>$ git clone git@github.com:aaronkwhite/foundation-jekyll.git project-name</code>
-      </pre>
-    
+      {% highlight shell-session%}
+        $ git clone git@github.com:aaronkwhite/foundation-jekyll.git project-name
+      {% endhighlight %}
+
+
       <p>The core components are located in the source directory, so you can better organize your content and stucture.</p>
-      
+
       {% include layout.html %}
-      
+
       <p>
         We're using Foundation &amp; Font-Awesome Sass compiled by Jekyll automatically when we build the source. All Sass files are located in the '_scss/' directory including the customized skin.
       </p>
@@ -20,8 +22,10 @@
       </p>
 
       <p>To test your site locally just run:</p>
-      
-      <pre><code>$ jekyll serve</code></pre>
+
+      {% highlight shell-session%}
+        $ jekyll serve
+      {% endhighlight %}
 
   </div>
 </section>

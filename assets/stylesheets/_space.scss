@@ -32,6 +32,7 @@ body {
   // Media Queries
   // Small Screens
   @media only screen {
+      margin-bottom: 1rem;
       padding: 6rem 0 2.5rem 0;
     .title {
       font-size: rem-calc(24);
@@ -42,7 +43,8 @@ body {
   }
   //Medium Screens
   @media only screen and (min-width: 40.063em) {
-    padding: 200px 0 190px 0;
+    margin-bottom: 2.5rem;
+    padding: 200px 0 220px 0;
     .title {
       font-size: rem-calc(40);
     }
@@ -52,7 +54,8 @@ body {
   }
   // Large Screens
   @media only screen and (min-width: 64.063em) {
-    padding: 200px 0 200px 0;
+    margin-bottom: 4rem;
+    padding: 200px 0 240px 0;
     .title {
       font-size: rem-calc(48);
     }
@@ -60,4 +63,28 @@ body {
       font-size: rem-calc(24);
     }
   }
+}
+
+.features {
+  text-align: center;
+  //margin: 2rem auto;
+  h6 {
+    color: #7A8698;
+    text-transform: uppercase;
+    //padding: 8rem 0 2rem 0;
+    margin-top: -1rem;
+  }
+}
+
+.about {
+  margin-top: 2rem;
+}
+
+.getstarted {
+  margin-top: 2rem;
+}
+
+.half {
+  margin: 2rem auto;
+  width: 140px;
 }

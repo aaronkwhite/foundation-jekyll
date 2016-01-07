@@ -48,21 +48,108 @@
       <h2 class="tagline">The awesomeness of Foundation 6... powered by Jekyll</h2>
       <br />
       <a href="#" class="large button hero-button hide-for-small-only">Download <small>(v. 1.5.0)</small></a>
-      <a href="#" class="small button hero-button show-for-small-only">Download <small></a>
+      <a href="#" class="small button hero-button show-for-small-only">Download</a>
     </div>
   </div>
-
 
 </header>
 
 
-<section class="row medium-8 large-7 columns">
-  <div class="content small-9 small-centered large-centered columns">
+<section class="row features hide-for-small-only">
+  <div class="small-12 medium-2 medium-offset-2 large-offset-2 end columns">
+    <p>
+      <img data-interchange="[/assets/images/yeti-color.png, (small)], [/assets/images/yeti-color@2x.png, (medium)]", src="/assets/images/yeti-color.png">
+    </p>
+    <h6>Foundation</h6>
+  </div>
 
-    <h3>About Foundation-Jekyll</h3>
+  <div class="small-12 medium-2 medium-offset-1 large-offset-1 end columns">
+    <p>
+      <img data-interchange="[/assets/images/jekyll-color.png, (small)], [/assets/images/jekyll-color@2x.png, (medium)]", src="/assets/images/jekyll-color.png">
+    </p>
+    <h6>Jekyll</h6>
+  </div>
+
+  <div class="small-12 medium-2 medium-offset-1 large-offset-1 end columns">
+    <p>
+      <img data-interchange="[/assets/images/sass-color.png, (small)], [/assets/images/sass-color@2x.png, (medium)]", src="/assets/images/sass-color.png">
+    </p>
+    <h6>Sass</h6>
+  </div>
+</section>
+
+
+<section class="row about">
+  <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
+
     <p>
       This boilerplate was created as a starting point to use Foundation &amp; Jekyll to create static websites. There aren't many (if any) Foundation &amp; Jekyll boilerplates, so I created one. The structure is geared more towards building static sites and prototypes, not just blogs. Hopefully you'll find it as useful as I do.
     </p>
+
+  </div>
+</section>
+
+
+<hr class="half" />
+
+<section class="row getstarted hide-for-small-only">
+  <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
+
+    <h3>Get Started</h3>
+
+      <p>Clone the repo and start building your site:</p>
+
+      <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">$ git clone git@github.com:aaronkwhite/foundation-jekyll.git project-name</span></code></pre></div>
+
+
+      <p>The core components are located in the source directory, so you can better organize your content and stucture.</p>
+
+      <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">foundation-jekyll/</span>
+<span class="go">├── _site/</span>
+<span class="go">├── _source/</span>
+<span class="go">    ├── _data/</span>
+<span class="go">        ├── sample.json</span>
+<span class="go">    ├── _drafts/</span>
+<span class="go">        ├── 2014-12-14-draft-post.md</span>
+<span class="go">    ├── _includes/</span>
+<span class="go">        ├── header.html</span>
+<span class="go">        ├── footer.html</span>
+<span class="go">    ├── _layouts/</span>
+<span class="go">        ├── default.html</span>
+<span class="go">    ├── _posts/</span>
+<span class="go">        ├── 2014-12-14-post-one.md</span>
+<span class="go">        ├── 2014-12-14-post-two.md</span>
+<span class="go">    ├── _scss/</span>
+<span class="go">    ├── assets/</span>
+<span class="go">        ├── fonts/</span>
+<span class="go">        ├── images/</span>
+<span class="go">        ├── javascripts/</span>
+<span class="go">            ├── foundation/</span>
+<span class="go">            ├── foundation.min.js</span>
+<span class="go">            ├── jquery-2.1.1.min.js</span>
+<span class="go">            ├── modernizr-2.8.3-min.js</span>
+<span class="go">            ├── scripts.js</span>
+<span class="go">        ├── stylesheets/</span>
+<span class="go">          ├── style.scss</span>
+<span class="go">    ├── 404.html</span>
+<span class="go">    ├── index.html</span>
+<span class="go">    ├── feed.xml</span>
+<span class="go">├── .gitignore</span>
+<span class="go">├── LICENSE</span>
+<span class="go">├── README.md</span>
+<span class="go">├── _config.yml</span></code></pre></div>
+
+
+      <p>
+        We're using Foundation &amp; Font-Awesome Sass compiled by Jekyll automatically when we build the source. All Sass files are located in the '_scss/' directory including the customized skin.
+      </p>
+      <p>
+        The primary stylesheet  '/assets/stylessheets/style.scss' file is configured to include all necessary files for Foundation, Font-Awesome and your custom styles.
+      </p>
+
+      <p>To test your site locally just run:</p>
+
+      <div class="highlight"><pre><code class="language-shell-session" data-lang="shell-session"><span class="go">$ jekyll serve</span></code></pre></div>
 
   </div>
 </section>
