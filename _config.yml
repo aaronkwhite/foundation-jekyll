@@ -15,8 +15,6 @@ author:
 
 # Dependencies
 markdown:           kramdown
-kramdown:
-  use_coderay: true
 highlighter:        pygments
 
 # Permalinks
