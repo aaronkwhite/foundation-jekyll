@@ -3,31 +3,60 @@ layout: default
 title: Foundation - Jekyll
 base_url: "../../"
 ---
+<section class="row support">
+    <div class="small-12 medium-8 medium-offset-2 large-offset-2 end columns">
 
-<h1><i class="fa fa-barcode"></i> Foundation-Jekyll</h1>
+      <h1><i class="fa fa-barcode"></i> Foundation-Jekyll</h1>
 
-<p>A bare bones <a href="http://foundation.zurb.com">Foundation ({{ site.foundation_version }})</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> boilerplate to get up and running fast.</p>
+      <p>
+        {{ site.site_description }}
+      </p>
 
-<h3>Version</h3>
+      <h3>Version</h3>
 
-<p>Current - {{ site.current_version }}</p>
+      <p>
+        Current - {{ site.current_version }}
+      </p>
 
-<h3>About</h3>
+      <h3>About</h3>
 
-<p>This boilerplate was created as a starting point to use <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> to create static websites. There aren't many (if any) <a href="http://foundation.zurb.com">Foundation</a> &amp; <a href="http://jekyllrb.com">Jekyll</a> boilerplates, so I created one. The structure is geared more towards building static sites and prototypes, not just blogs. Hopefully you'll find it as useful as I do.</p>
+      <p>
+        Foundation-Jekyll is the quickest way to get started building static sites, prototypes, blogs, portfolios and much more. Foundation-Jekyll is flexible, yet highly customizable and ready to be deployed to Github Pages or your own hosting environment.
+      </p>
 
-<h3>Get Started</h3>
+      <p>
+        Foundation-Jekyll assumes the following:
+        <ul>
+          <li>Minimum comfort level using the Terminal</li>
+          <li>Development enviromnent setup (Homebrew, Ruby, xCode, etc...)</li>
+          <li>Some familiarity using Jekyll or are willing to get your hands dirty.</li>
+          <li>Love using Foundation to build websites</li>
+          <li>This project was created by @aaronkwhite in Colorful Colorado.</li>
+        </ul>
+      </p>
 
-<p>Clone the repo and start building your site:</p>
+      <h3>Get Started</h3>
 
-<p><code>
- git clone git@github.com:aaronkwhite/foundation-jekyll.git project-name
-</code></p>
+      <p>
+        Install Jekyll
+      </p>
 
-<p>The core components are located in the <em>source</em> directory, so you can better organize your content and stucture.</p>
+      {% highlight shell-session %}
+        $ gem install jekyll
+      {% endhighlight %}
 
-<p>
-<pre><code>foundation-jekyll/
+      <p>
+        Clone the repo and start building your site:
+      </p>
+
+      {% highlight shell-session %}
+        $ git clone git@github.com:aaronkwhite/foundation-jekyll.git foundation-jekyll
+      {% endhighlight %}
+
+      <p>The core components are located in the source directory, so you can better organize your content and stucture.</p>
+
+{% highlight shell-session %}
+foundation-jekyll/
 ├── _site/
 ├── _source/
     ├── _data/
@@ -42,58 +71,87 @@ base_url: "../../"
     ├── _posts/
         ├── 2014-12-14-post-one.md
         ├── 2014-12-14-post-two.md
-    ├── _scss/
     ├── assets/
         ├── fonts/
         ├── images/
         ├── javascripts/
-            ├── foundation/
+            ├── vendor/
+              ├── jquery/
+            ├── ...
+            ├── ...
             ├── foundation.min.js
-            ├── jquery-2.1.1.min.js
-            ├── modernizr-2.8.3-min.js
+            ├── ...
+            ├── ...
+            ├── motion-ui.js
             ├── scripts.js
         ├── stylesheets/
+          ├── components
+          ├── font-awesome/
+          ├── forms/
+          ├── grid/
+          ├── typography/
+          ├── util/
+          ├── vendor/
+          ├── _global.scss
+          ├── _settings.scss
+          ├── _theme.scss
+          ├── _variables.scss
+          ├── foundation.scss
           ├── style.scss
     ├── 404.html
     ├── index.html
     ├── feed.xml
+├── _config.yml
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── _config.yml</code></pre>
-</p>
+{% endhighlight %}
+      </p>
 
-<p>We're using <a href="http://foundation.zurb.com">Foundation</a> &amp; Font-Awesome <a href="http://sass-lang.com">Sass</a> compiled by Jekyll automatically when we build the source. All Sass files are located in the '_scss/' directory including the customized skin.</p>
+      <p>
+       We're using Foundation &amp; Font-Awesome Sass compiled by Jekyll automatically when we build the source.
+     </p>
 
-<p>The primary stylesheet '/assets/stylessheets/style.scss' file is configured to include all necessary files for Foundation, Font-Awesome and your custom styles.</p>
+     <p>
+       The primary stylesheet '/assets/stylessheets/style.scss' file is configured to include all necessary files for Foundation, Font-Awesome and your custom styles, just add your custom styles to '/assets/stylesheets/_theme.scss'.
+     </p>
 
-<p>To test your site locally just run:</p>
+     <p>
+       To test your site locally just run:
+     </p>
 
-<p><code>
-jekyll serve
-</code></p>
+     {% highlight shell-session %}
+       $ jekyll serve
+     {% endhighlight %}
 
-<p><em>Note:</em> Make sure you update your git remote before you try to push any changes.</p>
+      <p>
+          <em>Note:</em> Make sure you update your git remote before you try to push any changes.
+      </p>
 
-<h3>Dependencies</h3>
+      <h3>Dependencies</h3>
 
-<ul>
-<li>ruby</li>
-<li>Jekyll</li>
-<li>kramdown</li>
-<li>pygments</li>
-</ul>
+      <ul>
+        <li>ruby</li>
+        <li>Jekyll</li>
+        <li>kramdown</li>
+        <li>pygments</li>
+      </ul>
 
-<h2>Hosting on Github</h2>
+      <h3>Support/Contributing</h3>
 
-<p>If you plan on hosting your site or blog on Github Pages, you will need to move all the files in the 'source' directory to the root of your project. This is due to the Github Pages build system overriding the source flag in _config.yml.</p>
+      <p>
+        If you run into any issues or bugs, please create an issue in Github. Unfortunately I can't help everyone via email or twitter, I'm only one person.
+      </p>
 
-<h3>Support/Contributing</h3>
+      <p>
+        If you would like to contribute to this repo, hit me up on twitter <a href="http://twitter.com/aaronkwhite">@aaronkwhite</a> and then we can talk pull requests.
+      </p>
 
-<p>If you run into any issues or bugs, please create an issue in Github. Unfortunately I can't help everyone via email or twitter, I'm only one person.</p>
+      <h3>License</h3>
 
-<p>If you would like to contribute to this repo, hit me up on twitter <a href="http://twitter.com/aaronkwhite">@aaronkwhite</a> and then we can talk pull requests.</p>
+      <p>
+        <a href="http://opensource.org/licenses/MIT">MIT</a>
+      </p>
 
-<h3>License</h3>
-
-<p><a href="http://opensource.org/licenses/MIT">MIT</a></p>
+  </div>
+</section>

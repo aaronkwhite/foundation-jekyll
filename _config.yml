@@ -1,8 +1,8 @@
 title:              Foundation-Jekyll
 
 # Versioning
-current_version: 1.2.0
-foundation_version: 5.5.3
+current_version: 1.5.0
+foundation_version: 6.0.0
 
 author:
   name:             username
@@ -11,7 +11,7 @@ author:
   twitter:          username
 
 # Dependencies
-markdown:           rdiscount
+markdown:           kramdown
 highlighter:        pygments
 
 # Permalinks
@@ -26,22 +26,27 @@ baseurl:            ""
 url:                http://yoururl.com
 
 # exclude this stuff when building the static site
-exclude:            ["sass","scss",".gitignore","README.md","config.codekit"]
-
+exclude:            [
+                      '.gitignore',
+                      'README.md',
+                      'Gemfile',
+                      'Gemfile.lock',
+                    ]
 
 ## CUSTOM VARS
 
 #ga_id:             ##-########-###
 site_name:          Foundation-Jekyll
-site_description :  A bare bones Foundation & Jekyll boilerplate to get up and running fast.
-site_copyright:     Copyright (c) 2014 @aaronkwhite
+site_description :  The awesomeness of Foundation 6... powered by Jekyll
+site_copyright:     Copyright (c) 2016 @aaronkwhite
 site_url:           http://yoururl.com
 site_email:         site@domain.com
 site_phone:         (555) 555-1234
 
 
 
+# Assets
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-  sass_dir:          _scss
+  sass_dir:          ./assets/stylesheets
   style:            :compressed
