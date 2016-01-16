@@ -12,7 +12,8 @@ author:
 
 # Dependencies
 markdown:           kramdown
-highlighter:        pygments
+#Syntax Highlighter
+#highlighter:        pygments
 
 # Permalinks
 permalink:          pretty
